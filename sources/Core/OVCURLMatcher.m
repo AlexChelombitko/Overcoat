@@ -129,7 +129,7 @@ static BOOL OVCTextOnlyContainsDigits(NSString *text) {
                     break;
                 }
             }
-            if (node) {
+            if (node && childNode.type == OVCURLMatcherTypeExact) {
                 break;
             }
         }
