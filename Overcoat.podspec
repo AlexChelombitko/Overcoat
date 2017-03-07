@@ -50,7 +50,6 @@ Pod::Spec.new do |s|
       sss.dependency 'Mantle', '~> 1'
     end
 
-    ss.default_subspec = 'Mantle2'
   end
 
   s.subspec 'Social' do |ss|
